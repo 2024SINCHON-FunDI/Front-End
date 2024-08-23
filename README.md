@@ -37,3 +37,9 @@
 
 <br>
 
+  ### 4. 배포 링크
+
+  https://fundi-lake.vercel.app/
+
+  >>ID : user1
+  >>PASSWORD : 111
