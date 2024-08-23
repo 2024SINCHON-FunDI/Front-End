@@ -4,7 +4,10 @@ import MemberPage from "./src/MemberPage";
 import BudgetPage from "./src/BudgetPage";
 import SideBar from "./src/SideBar";
 import styled from "styled-components";
+import BudgetRegisterPage from "./src/BudgetRegisterPage";
+import DashboardPage from "./src/DashboardPage";
 
+// eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => {
   return (
     <Container>
@@ -21,16 +24,14 @@ function Router() {
         <Route
           path="/"
           element={
-            <Layout>
               <HomePage />
-            </Layout>
           }
         />
         <Route
-          path="/:id"
+          path="/dashboard/:id"
           element={
             <Layout>
-              <HomePage />
+              <DashboardPage />
             </Layout>
           }
         />
@@ -48,6 +49,14 @@ function Router() {
           element={
             <Layout>
               <BudgetPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/budgetRegister/:id"
+          element={
+            <Layout>
+              <BudgetRegisterPage />
             </Layout>
           }
         />
