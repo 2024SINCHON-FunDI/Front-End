@@ -27,7 +27,7 @@
   
   |이름|학과|파트|
   |:-------------:|:-------------:|:-------------:|
-  |최보현|서강대학교 Art&Technology|기획/디자인, 프론트엔드|
+  |최보현|서강대학교 Art&Technology, 컴퓨터공학과|기획/디자인, 프론트엔드|
   |박솔|홍익대학교 산업데이터공학과|프론트엔드|
   |안연아|서강대학교 수학과, 컴퓨터공학과|프론트엔드|
   |박민서|이화여자대학교 컴퓨터공학과|백엔드|
@@ -37,44 +37,3 @@
 
 <br>
 
-### 4. 폴더 구조
-
-```
-📁2024SINCHON
-│
-│  db.sqlite3
-│  manage.py
-│
-├─api
-│  │  admin.py
-│  │  apps.py
-│  │  models.py
-│  │  serializers.py
-│  │  tests.py
-│  │  urls.py
-│  │  views.py
-│  └─ __init__.py
-│
-├─fundi
-│  │  admin.py
-│  │  apps.py
-│  │  models.py
-│  │  serializers.py
-│  │  tests.py
-│  │  urls.py
-│  │  views.py
-│  └─ __init__.py
-│
-├─sinchon
-│  │  asgi.py
-│  │  models.py
-│  │  settings.py
-│  │  urls.py
-│  │  wsgi.py
-│  └─ __init__.py
-│
-└─static
-```
-<br>
-
-### 5. 개발환경에서의 실행 방법
