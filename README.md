@@ -41,5 +41,5 @@
 
   https://fundi-lake.vercel.app/
 
-  >>ID : user1
-  >>PASSWORD : 111
+  >ID : user1
+  >PASSWORD : 111
